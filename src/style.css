@@ -1,0 +1,105 @@
+body {
+    background: url(../src/img/bg-desktop.svg);
+    background-color:  hsl(257, 40%, 49%);
+}
+
+.header {
+
+    padding: 40px;
+    margin-bottom: 53px;
+
+}
+
+.header .logo {
+    margin: 60px;
+}
+
+.container {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container img {
+    width: 50%;
+}
+
+.informacoes {
+    display: block;
+    width: 60%;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.informacoes .titulo {
+    display: block;
+    color: #ffffff;
+    font-size: 35px;
+    max-width: 400px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.informacoes .descrisao {
+    display: block;
+    color: aliceblue;
+    margin: 30px 0;
+    font-size: 18px;
+    width: 85%;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .informacoes .registre {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 50px;
+    width: 175px;
+    border: #ffffff;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.informacoes .registre a {
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.informacoes .registre:hover {
+    background-color: hsl(300, 69%, 71%);
+    
+
+}
+
+.informacoes .registre a:hover {
+    color: hsl(300, 30%, 89%);
+
+}
+
+.redesSociais {
+    display: flex;
+    position: absolute;
+    bottom: -50px;
+    right: 100px;
+}
+
+.redesSociais a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 85px;
+    font-size: 50px;
+    color: white;
+    transition: 0.5s ease-in-out;
+
+}
+.redesSociais a:hover {
+    color: hsl(300, 69%, 71%) ;
+
+}
